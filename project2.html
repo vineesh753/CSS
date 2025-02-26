@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <style>
+        .starting{
+            height: 70px;
+            width: 100%;
+            background-image: url(https://media.cnn.com/api/v1/images/stellar/prod/200310023921-dubai-buildings-skyline.jpg?q=w_3000,h_1688,x_0,y_0,c_fill);
+            color: white;
+            display: flex;
+            flex-direction: row;
+            border: 2px solid white;
+        }
+
+        .starting .start{
+            height: 70px;
+            width: 100%;
+            background-image: url(https://media.cnn.com/api/v1/images/stellar/prod/200310023921-dubai-buildings-skyline.jpg?q=w_3000,h_1688,x_0,y_0,c_fill);
+            color: white;
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+        }
+
+        .starting .icons{
+            height: 70px;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            color: white;
+            background-image: url(https://media.cnn.com/api/v1/images/stellar/prod/200310023921-dubai-buildings-skyline.jpg?q=w_3000,h_1688,x_0,y_0,c_fill);
+            justify-content: end;
+            gap: 30px;
+
+        }
+
+        .heading{
+            height: 100px;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            background-image: url(https://media.cnn.com/api/v1/images/stellar/prod/200310023921-dubai-buildings-skyline.jpg?q=w_3000,h_1688,x_0,y_0,c_fill);
+            color: white;
+
+        }
+
+        .heading .nav{
+            height: 100px;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            background-image: url(https://media.cnn.com/api/v1/images/stellar/prod/200310023921-dubai-buildings-skyline.jpg?q=w_3000,h_1688,x_0,y_0,c_fill);
+            color: white;
+            justify-content: space-evenly;
+         }
+
+         h1{
+            color: orange;
+         }
+
+         .more{
+            height: 300px;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            background-image: url(https://media.cnn.com/api/v1/images/stellar/prod/200310023921-dubai-buildings-skyline.jpg?q=w_3000,h_1688,x_0,y_0,c_fill);
+            color: white;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+         }
+
+
+         .moreinfo{
+            height: 300px;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            background: white;
+            color: black;
+            margin: 4% 0% 0% 0%;
+         }
+
+         .moreinfo .messg{
+            height: 300px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            background: white;
+            color: black;
+            margin: 4% 0% 0% 0%;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+         }
+
+         .moreinfo .button{
+            height: 300px;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            background: white;
+            color: black;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            gap: 10px;
+         }
+
+         .feat{
+            height: 300px;
+            width: 100%;
+            background: white;
+            color: black;
+            display: flex;
+            margin: 10% 0% 0% 0%;
+            flex-direction: row;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+         }
+
+         .feat .feature{
+            height: 300px;
+            width: 100%;
+            background: white;
+            color: black;
+            display: flex;
+            margin: 10% 0% 0% 0%;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+         }
+
+         .cause{
+            height: 300px;
+            width: 100%;
+            background: white;
+            color: black;
+            display: flex;
+            flex-direction: row;
+            gap: 30px;
+            justify-content: space-evenly;
+         }
+         h2{
+            background: orange;
+            color: white;
+            text-align: center;
+         }
+
+         h3{
+            background: orange;
+            color: white;
+            text-align: center;
+         }
+
+         h4{
+            background: orange;
+            color: white;
+            text-align: center;
+
+         }
+
+         .lea{
+            height: 200px;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            margin: 10% 0% 0% 0%;
+            background: white;
+            color: black;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            
+         }
+
+         .medi{
+            height: 300px;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            background: white;
+            color: black;
+            justify-content: space-evenly;
+         }
+
+         .than{
+            height: 300px;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            background-image: url(https://themewagon.github.io/chariteam/img/carousel-2.jpg);
+            color: white;
+            align-items: center;
+            text-align: center;
+            justify-content: space-around ;
+             }
+
+        .discript{
+            height: 250px;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            background: blueviolet;
+            color: white;
+            justify-content: space-evenly;
+        }
+
+        .bottom{
+            height: 100px;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            background: blueviolet;
+            color: white;
+            border:2px solid wheat ;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+        }
+
+
+
+
+
+
+
+    </style>
+
+</head>
+<body>
+    <div class="starting">
+        <div class="start">
+        <p><i class="fa-solid fa-location-dot"></i>123Street,New York, USA</p>
+        <p><i class="fa-solid fa-envelope"></i>info@example.com</p>
+        </div>
+        <div class="icons">
+            <p>Follow Us:</p>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+    </div>
+    <div class="heading">
+        <div class="head">
+            <h1>ChariTeam</h1>
+        </div>
+        <div class="nav">
+            <p>Home</p>
+            <p>About</p>
+            <p>cause</p>
+            <p>Pages</p>
+            <p>Contact</p>
+        </div>
+        <div class="button">
+            <button>Donate now<i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+    </div> 
+    <div class="more">
+        <div class="info">
+            <p><b>Let's Change The World </b></p>
+            <p><b>With Humanity</b></p>
+            <br>
+            <br>
+            <p>Aliqu diam amet diam et eos. Clita erat ipsum et lorem sed stet</p>
+            <p>lorem sit Clita duo justo erat amet</p>
+            <button>Lern More<i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+    </div>
+    <div class="moreinfo">
+        <div class="imginfo">
+            <img src="./pic.1.jpg" height="500px">
+        </div>
+        <div class="messg">
+            <button>About Us</button>
+            <p><b>We Help People In Need</b></p>
+            <p><b>Around The World</b></p>
+            <p>Aliqu diam amet diam et eos. Clita erat ipsum et lorem sed stet</p>
+            <p>lorem sit Clita duo justo erat amet</p>
+            <h1><u>Jhon Doe, Founder</u></h1>
+            <p>Tempor erat elitr rebum at Clita.Diam dolor  diam ipsumsit. Aliqu diam</p>
+            <p>amet diam et eos. Clita erat ipsum et lorem et sit,Sed Stet lorem sit</p>
+            <p>Clita duo justo magna dolore erat amet</p>
+            <div class="button">
+                <button>Lern More<i class="fa-solid fa-arrow-right"></i></button>
+            <button>Contact us<i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+    </div>
+    <div class="feat">
+        <div class="feature">
+            <button>Feature Cause</button>
+            <p><b>Every Child Deserves The</b></p>
+            <p><b>Opportunity To Lern</b></p>
+        </div>
+    </div>
+    <div class="cause">
+        <div class="subdiv1">
+            <h2>Education</h2>
+            <p><b>Education for African Children</b></p>
+            <p>Tampor erat elitr rebum at clita dolor</p>
+            <p>diam ipsum sit diam amet diam et eos</p>
+            <p>$10,000 Goal | $9,542 Raised (90%)</p>
+            <img src="https://www.avanse.com/blogs/images/10feb-blog-2023.jpg" height="150px">
+        </div>
+        <div class="subdiv2">
+            <h3>Pure Water</h3>
+            <p><b>Ensure Pure Drinking Water</b></p>
+            <p>Tampor erat elitr rebum at clita dolor</p>
+            <p>diam ipsum sit diam amet diam et eos</p>
+            <p>$10,000 Goal | $9,542 Raised (90%)</p>
+            <img src="./courses-2.jpg" height="200px">
+        </div>
+        <div class="subdiv3">
+            <h4>Healthy Life</h4>
+            <p><b>Ensure Medical Treatment</b></p>
+            <p>Tampor erat elitr rebum at cli dolor</p>
+            <p>diam ipsum sit diam amet diam et eos</p>
+            <p>$10,000 Goal | $9,542 Raised (90%)</p>
+            <img src="./courses-3.jpg" height="200px">
+        </div>
+    </div>
+    <div class="lea">
+        <div class="learn">
+            <button> What we do</button>
+            <p><b>Learn More What We Do</b></p>
+            <p><b>And Get Involved</b></p> 
+        </div>
+    </div>
+    <div class="medi">
+         <div class="subdiv4">
+            <img src="https://themewagon.github.io/chariteam/img/icon-1.png">
+            <p><b>Child Education</b></p>
+            <p>Tempor ut dolore lorem kasd vero</p>
+            <p>ipsum sit eirmod sit.ipsum diam</p>
+            <p>justo sed vero dolor duo</p>
+            <button>Learn More<i class="fa-solid fa-arrow-right"></i></button>
+         </div>
+         <div class="subdiv5">
+            <img src="https://themewagon.github.io/chariteam/img/icon-2.png">
+            <p><b>Medical Treatment</b></p>
+            <p>Tempor ut dolore lorem kasd vero</p>
+            <p>ipsum sit eirmod sit.ipsum diam</p>
+            <p>justo sed vero dolor duo</p>
+            <button>Learn More<i class="fa-solid fa-arrow-right"></i></button>
+         </div>
+         <div class="subdiv6">
+            <img src="https://themewagon.github.io/chariteam/img/icon-3.png">
+            <p><b>Pure Drinking Water</b></p>
+            <p>Tempor ut dolore lorem kasd vero</p>
+            <p>ipsum sit eirmod sit.ipsum diam</p>
+            <p>justo sed vero dolor duo</p>
+            <button>Learn More<i class="fa-solid fa-arrow-right"></i></button>
+         </div>
+        </div>
+        <div class="than">
+            <div class="thanks">
+                <button>Donate now</button>
+                <P><b>Thanks For The Result</b></P>
+                <P><b>Achived With you</b></P>
+                <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam</p>
+                <p>amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit</p>
+                <p>clita duo justo magna dolore erat amet</p>
+            </div>
+            <div class="form">
+                <input type="text" placeholder="Enter your name" name="name"/>
+                <br>
+                <br>
+                <input type="email" placeholder="Enter email" name="email"/>
+                <br>
+                <br>
+                <button>$10</button>
+                <button>$20</button>
+                <button>$30</button>
+                <br>
+                <br>
+                <button>Donate Now<i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+        <div class="discript">
+            <div class="discription">
+                <h1>ChariTeam</h1>
+                <p>Diam dolor diam ipsum sit. Aliqu</p>
+                <p>diam amet diam et eos. Clita</p>
+                <p>erat ipsum et lorem et sit, sed</p>
+                <p>stet lorem sit clita</p>
+                <i class="fa-brands fa-square-twitter"></i>
+                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-square-youtube"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <div class="childdiv1">
+                <p><b>ADDRESS</b></p>
+                <p><i class="fa-solid fa-location-dot"></i>123Street,New York, USA</p>
+                <p><i class="fa-solid fa-phone"></i>+012 345 67890</p>
+                <p><i class="fa-solid fa-envelope"></i>info@example.com</p>
+            </div>
+            <div class="childdiv2">
+                <p><b>Quick link</b></p>
+                <p>About us</p>
+                <p>Contact us</p>
+                <p>Our Services</p>
+                <p>Terms & conditions</p>
+                <p>Support</p>
+            </div>
+            <div class="childdiv3">
+                <p><b>NewsLetter</b></p>
+                <p>Dolor amet sit justo amet elitr</p>
+                <p>clita ipsum elitr est.</p>
+                <input type="email" placeholder="Enter email" name="email"/>
+                <button>Sign Up</button>
+             </div>
+            
+        </div>
+        <div class="bottom">
+            <div class="last">
+                <p><b>© chariteam,All Right Reserved.Designed By Er.Vineesh Bhagat</b></p>   
+            </div>
+        </div>
+    
+    
+</body>
+</html>
